@@ -1,4 +1,5 @@
 import express from 'express'
+import { Server as SocketServer } from 'socket.io';
 
 const app = express()
 
