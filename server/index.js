@@ -13,11 +13,14 @@ const io = new SocketServer(server, {
 })
 
 io.on('connection', socket => {
-    console.log('cliente conectado');
+    console.log(socket.id);
 
     // preparando a nuestro socket para que escuche eventos
-    socket.on('message', data => {
-        socket.broadcast.emit('message', data)
+    socket.on('message', body => {
+        socket.broadcast.emit('message', {
+            body,
+            from: socket.id.slice(0,4)
+        })
     })
 })
 

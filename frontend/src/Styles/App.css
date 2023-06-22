@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-chat {
+  max-height: 20px;
+}
+
+.send-button {
+  padding: 15px 30px;
+  background-color: #AEC5EB;
+  color: #000;
+}
+
+.send-button:hover {
+  border-color: #ADF5FF;
+}
+
+.input-field {
+  padding: 15px 175px 15px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.headline {
+  margin-bottom: 100px;
+}
+
+.message-list {
+  list-style: none;
+  margin: 10px;
+}
+
+.chat {
+  max-width: 500px;
+  margin: auto;
+}
+
+.message {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 3px;
+  display: flex;
+  color: #000;
+}
+
+.user {
+  background-color: #AEC5EB;
+}
+
+.external {
+  background-color: #FEFFFE;
+}/*# sourceMappingURL=App.css.map */
